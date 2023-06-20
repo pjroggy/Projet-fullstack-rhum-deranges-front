@@ -1,0 +1,10 @@
+<ul>
+    <li>{{recipeChild.name}}</li>
+    <div *ngFor="let ingredient of recipeChild.ingredientList">
+    {{ingredient.name}}
+    {{ingredient.quantity}}
+    </div>
+    <li>{{recipeChild.rhum}}</li>
+    <li>{{recipeChild.dateOfCreation}}</li>
+    <li>{{recipeChild.price}}</li>
+</ul>
